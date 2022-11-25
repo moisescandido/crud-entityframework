@@ -70,7 +70,7 @@ bool ValidarTelefone(string telefone)
 }
 bool ValidarEndereco(string endereço)
 {
-    if (endereço.Length > 50)
+    if (endereço.Length > 50 || endereço.Length == 0)
     {
         return false;
     }
