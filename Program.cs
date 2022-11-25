@@ -98,7 +98,6 @@ void Create()
 
     while (ValidarNome(cliente.Nome) == false)
     {
-        Console.WriteLine("Número de caracteres excede valor permitido");
         Console.Write("Digite um nome valido: ");
         cliente.Telefone = Console.ReadLine();
     }
