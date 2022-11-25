@@ -1,8 +1,4 @@
-﻿using System.Net.Http;
-using System.Security.Cryptography;
-using System.Runtime.CompilerServices;
-
-using _DbContext;
+﻿using _DbContext;
 using ClientesModel;
 
 ClienteContext db = new ClienteContext();
